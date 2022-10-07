@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Revisao.Business.Services
 {
-    public class FornecedorService : BaseService, IProdutoService
+    public class ProdutoService : BaseService, IProdutoService
     {
         private readonly IProdutoRepository _produtoRepository;
         private readonly ICategoriaRepository _categoriaRepository;
 
-        public FornecedorService(IProdutoRepository produto, ICategoriaRepository categoria,
+        public ProdutoService(IProdutoRepository produto, ICategoriaRepository categoria,
                                  INotificador notificador) : base(notificador)
         {
             _produtoRepository = produto;
