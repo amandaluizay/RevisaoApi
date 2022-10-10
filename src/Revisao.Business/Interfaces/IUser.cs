@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace DevIO.Business.Intefaces
+namespace Revisao.Business.Intefaces
 {
     public interface IUser
     {

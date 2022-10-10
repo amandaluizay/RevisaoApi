@@ -1,9 +1,9 @@
-﻿using DevIO.Api.Extensions;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Revisao.Api.Data;
+using Revisao.Api.Extensions;
 using System.Text;
 
 namespace Revisao.Api.Configuration

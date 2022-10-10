@@ -1,16 +1,13 @@
 ﻿using AutoMapper;
-using DevIO.Business.Intefaces;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Revisao.Api.ViewModels;
+using Revisao.Business.Intefaces;
 using Revisao.Business.Interfaces;
 using Revisao.Business.Models;
-using Revisao.Business.Services;
-using Revisao.Data.repository;
 
 namespace Revisao.Api.Controllers
 {
-    
+
     [Route("api/categoria")]
     public class CategoriaController : MainController
     {

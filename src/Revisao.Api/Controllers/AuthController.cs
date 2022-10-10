@@ -1,10 +1,10 @@
-﻿using DevIO.Api.Extensions;
-using DevIO.Api.ViewModels;
-using DevIO.Business.Intefaces;
+﻿using DevIO.Api.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Revisao.Api.Extensions;
+using Revisao.Business.Intefaces;
 using Revisao.Business.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

@@ -1,15 +1,8 @@
-﻿using DevIO.Business.Notificacoes;
-using Revisao.Business.Interfaces;
+﻿using Revisao.Business.Interfaces;
 using Revisao.Business.Models;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using FluentValidation;
-using FluentValidation.Results;
 using ValidationResult = FluentValidation.Results.ValidationResult;
+using Revisao.Business.Notificacoes;
 
 namespace Revisao.Business.Services
 {

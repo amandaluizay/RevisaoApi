@@ -1,15 +1,9 @@
 ﻿using Revisao.Business.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Revisao.Business.Interfaces
 {
-        public interface IRepository<TEntity> : IDisposable where TEntity : Entity
+    public interface IRepository<TEntity> : IDisposable where TEntity : Entity
         {
             Task Adicionar(TEntity entity);
             Task<TEntity> ObterPorId(Guid id);

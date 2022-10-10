@@ -1,16 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Revisao.Business.Models;
 
 namespace Revisao.Data.mappings
 {
-   
-        public class CategoriaMapping : IEntityTypeConfiguration<Categoria>
+
+    public class CategoriaMapping : IEntityTypeConfiguration<Categoria>
         {
             public void Configure(EntityTypeBuilder<Categoria> builder)
             {

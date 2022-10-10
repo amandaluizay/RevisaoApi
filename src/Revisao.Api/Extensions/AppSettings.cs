@@ -1,4 +1,4 @@
-﻿namespace DevIO.Api.Extensions
+﻿namespace Revisao.Api.Extensions
 {
     public class AppSettings
     {

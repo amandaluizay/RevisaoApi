@@ -1,7 +1,7 @@
-﻿using DevIO.Business.Intefaces;
-using DevIO.Business.Notificacoes;
-using Revisao.Api.Extensions;
+﻿using Revisao.Api.Extensions;
+using Revisao.Business.Intefaces;
 using Revisao.Business.Interfaces;
+using Revisao.Business.Notificacoes;
 using Revisao.Business.Services;
 using Revisao.Data.context.RevisaoData;
 using Revisao.Data.repository;

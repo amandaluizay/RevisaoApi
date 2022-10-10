@@ -1,4 +1,4 @@
-﻿using DevIO.Business.Intefaces;
+﻿using Revisao.Business.Intefaces;
 using System.Security.Claims;
 
 namespace Revisao.Api.Extensions

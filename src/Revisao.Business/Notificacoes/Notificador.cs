@@ -1,6 +1,6 @@
 ﻿using Revisao.Business.Interfaces;
 
-namespace DevIO.Business.Notificacoes
+namespace Revisao.Business.Notificacoes
 {
     public class Notificador : INotificador
     {

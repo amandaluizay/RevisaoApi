@@ -1,10 +1,5 @@
 ﻿
 using Revisao.Data.context.RevisaoData;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Revisao.Business.Interfaces;
 using Revisao.Business.Models;
 using Microsoft.EntityFrameworkCore;

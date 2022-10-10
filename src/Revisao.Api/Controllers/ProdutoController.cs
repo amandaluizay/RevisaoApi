@@ -1,16 +1,14 @@
 ﻿using AutoMapper;
-using DevIO.Business.Intefaces;
-using DevIO.Business.Notificacoes;
 using Microsoft.AspNetCore.Mvc;
 using Revisao.Api.ViewModels;
+using Revisao.Business.Intefaces;
 using Revisao.Business.Interfaces;
 using Revisao.Business.Models;
-using Revisao.Business.Services;
 
 namespace Revisao.Api.Controllers
 {
 
-    
+
     [Route("api/produtos")]
     public class ProdutoController : MainController
         {

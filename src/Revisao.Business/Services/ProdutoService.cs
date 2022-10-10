@@ -1,11 +1,6 @@
 ﻿using Revisao.Business.Interfaces;
 using Revisao.Business.Models;
 using Revisao.Business.Models.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Revisao.Business.Services
 {

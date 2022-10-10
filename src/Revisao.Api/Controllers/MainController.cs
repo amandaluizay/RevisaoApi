@@ -1,9 +1,8 @@
-﻿using DevIO.Business.Intefaces;
-using DevIO.Business.Notificacoes;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Revisao.Business.Intefaces;
 using Revisao.Business.Interfaces;
-using System.Collections.Generic;
+using Revisao.Business.Notificacoes;
 
 namespace Revisao.Api.Controllers
 {
